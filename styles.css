@@ -28,8 +28,7 @@
   .board.x .cell:not(.x):not(.circle):hover::before {
     background: rgba(0, 0, 0, 0.3) !important;
   }
-  
-  /* Célula */
+
   .cell {
     width: 100px;
     height: 100px;
@@ -69,7 +68,6 @@
     border-right: none;
   }
   
-  /* X */
   .cell.x::before,
   .cell.x::after,
   .board.x .cell:not(.x):not(.circle):hover::after,
